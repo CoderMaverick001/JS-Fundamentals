@@ -1,8 +1,7 @@
-const input = [1, 2, 3];
+const arg = process.argv[2];
 
-if (input === 4) {
+if (arg === undefined) {
   console.log("No argument");
 } else {
-  // If the input contains spaces, split and return the first word
-  console.log(input);
+  console.log(arg);
 }
