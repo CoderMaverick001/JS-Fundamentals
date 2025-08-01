@@ -1,35 +1,8 @@
-let num = 5;
+const input = [1, 2, 3];
 
-if(num !== 4){
-    console.log('No argument');
-} 
-else if (num === 5){
-    console.log('Wow');
+if (input === 4) {
+  console.log("No argument");
+} else {
+  // If the input contains spaces, split and return the first word
+  console.log(input);
 }
-
-else console.log();
-
-
-
-num = 3;
-
-if(num === 4){
-    console.log('No argument');
-} 
-else if (num === 3){
-    console.log('Wow');
-}
-
-else console.log();
-
-
-num = 5;
-
-if(num === 4){
-    console.log('No argument');
-} 
-else if (num === 3){
-    console.log('Wow');
-}
-
-else console.log();
