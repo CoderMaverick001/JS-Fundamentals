@@ -1,7 +1,8 @@
-const num = 5;
+const args = process.argv.slice(2);
 
-if(num !== 4){
-    console.log('No argument');
+// Check if first argument exists without using .length
+if (args[0] === undefined) {
+  console.log("No argument");
+} else {
+  console.log(args[0]);
 }
-
-else console.log(num);
