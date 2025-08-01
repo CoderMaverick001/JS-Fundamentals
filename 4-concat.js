@@ -1,9 +1,10 @@
 
 const a = ('c');
 const b = ('cool')
+const c = undefined
 
 console.log(`${a} is ${b}`);
 
-console.log(`${a} is undefined`);
+console.log(`${a} is ${c}`);
 
-console.log(`undefined is undefined`);
+console.log(`${c} is ${c}`);
