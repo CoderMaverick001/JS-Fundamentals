@@ -1,4 +1,7 @@
-const zus = (num) =>{if (num > 5){
+
+let num = 6;
+
+if (num > 5){
     console.log('No argument');
 }
 
@@ -6,9 +9,28 @@ else if(num === 4){
     console.log('Argument found');
 }
 
-else console.log('Arguments found');};
+else console.log('Arguments found');
 
+num = 4;
 
-console.log(zus(6));
-console.log(zus(4));
-console.log(zus(3));
+if (num > 5){
+    console.log('No argument');
+}
+
+else if(num === 4){
+    console.log('Argument found');
+}
+
+else console.log('Arguments found');
+
+num = 2;
+
+if (num > 5){
+    console.log('No argument');
+}
+
+else if(num === 4){
+    console.log('Argument found');
+}
+
+else console.log('Arguments found');
