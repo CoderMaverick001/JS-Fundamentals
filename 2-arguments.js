@@ -1,36 +1,10 @@
+const args = process.argv.slice(2);
 
-let num = 6;
-
-if (num > 5){
-    console.log('No argument');
+// Check the number of arguments and print appropriate message
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
-
-else if(num === 4){
-    console.log('Argument found');
-}
-
-else console.log('Arguments found');
-
-num = 4;
-
-if (num > 5){
-    console.log('No argument');
-}
-
-else if(num === 4){
-    console.log('Argument found');
-}
-
-else console.log('Arguments found');
-
-num = 2;
-
-if (num > 5){
-    console.log('No argument');
-}
-
-else if(num === 4){
-    console.log('Argument found');
-}
-
-else console.log('Arguments found');
