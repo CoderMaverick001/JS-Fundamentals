@@ -1,10 +1,5 @@
 
-const a = ('c');
-const b = ('cool')
-const c = undefined
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-console.log(`${a} is ${b}`);
-
-console.log(`${a} is ${c}`);
-
-console.log(`${c} is ${c}`);
+console.log(`${arg1} is ${arg2}`);
